@@ -14,6 +14,9 @@ const fontSans = FontSans({
 export const metadata: Metadata = {
   title: "Medika",
   description: "A healtcare management system",
+  icons: {
+    icon: "/assets/icons/logo-icon.svg",
+  },
 };
 
 export default function RootLayout({
